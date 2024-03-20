@@ -1,0 +1,7 @@
+/*setting the font to Montserrat*/
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
