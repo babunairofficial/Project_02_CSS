@@ -4,6 +4,8 @@ body{
     margin: 0;
     background-color: black;
     color: white;
+    /*there is no need for scrollbar on the page*/
+    overflow: hidden;
 }
 
 /*"main" div is converted into a flex to accomodate children divs in a line*/
@@ -17,12 +19,18 @@ body{
     background-color: red;
     /*setting the width of the sidebar section to match the required width*/
     width: 340px;
+    /*to curve the corners of the border*/
+    border-radius: 1rem; /*1rem = 16px*/
 }
 
 .main-content{
     background-color: blue;
     /*to assign the remaining width available to a single section*/
     flex: 1;
+    /*to curve the corners of the border*/
+    border-radius: 1rem;
+    /*there is no need for scrollbar on the page, except at the "main-content" section*/
+    overflow: auto;
 }
 
 .music-player{
