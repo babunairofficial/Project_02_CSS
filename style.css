@@ -1,7 +1,38 @@
-/*setting the font to Montserrat*/
+/*setting the font to Montserrat for the whole body/webpage*/
 body{
     font-family: "Montserrat", sans-serif;
     margin: 0;
     background-color: black;
     color: white;
+}
+
+/*"main" div is converted into a flex to accomodate children divs in a line*/
+.main{
+    display :flex;
+    /*assigning height to 100% of viweport-height, to take up the entire height available*/
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: red;
+    /*setting the width of the sidebar section to match the required width*/
+    width: 340px;
+}
+
+.main-content{
+    background-color: blue;
+    /*to assign the remaining width available to a single section*/
+    flex: 1;
+}
+
+.music-player{
+    background-color: yellow;
+    /*to fix the position of the section on the page*/
+    position: fixed;
+    /*assign the section to the bottom of the page */
+    bottom: 0;
+    /*width is set to 100% of the page to accomodate the available page*/
+    width: 100%;
+    /*height is set to match the required height of the section*/
+    height: 72px;
 }
