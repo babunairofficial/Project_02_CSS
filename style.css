@@ -17,7 +17,7 @@ body{
 
 .sidebar{
     /*set color according to the required website using color picker*/
-    background-color: #121212;
+    background-color: black;
     /*setting the width of the sidebar section to match the required width*/
     width: 340px;
     /*to curve the corners of the border*/
@@ -51,5 +51,9 @@ body{
 a{
     text-decoration: none;
     color: white;
-    
+}
+
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
 }
