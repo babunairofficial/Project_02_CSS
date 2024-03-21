@@ -13,6 +13,7 @@ body{
     display :flex;
     /*assigning height to 100% of viweport-height, to take up the entire height available*/
     height: 100vh;
+    padding: 0.5rem;
 }
 
 .sidebar{
@@ -89,4 +90,36 @@ a{
 .library{
     background-color: #121212;
     border-radius: 1rem;
+    /*giving the entire remaining space to library class*/
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.options{
+    /*converting elements in the same line*/
+    display: flex;
+    /*placing the elements in two corners*/
+    justify-content: space-between;
+    /*vertical align*/
+    align-items: center;
+}
+
+.lib-options img{
+    /*image sizing to icon*/
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i{
+    opacity: 0.7;
+    margin: 1rem;
+}
+
+.icons i:hover{
+    opacity: 1;
 }
