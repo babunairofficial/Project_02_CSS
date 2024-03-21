@@ -16,7 +16,8 @@ body{
 }
 
 .sidebar{
-    background-color: red;
+    /*set color according to the required website using color picker*/
+    background-color: #121212;
     /*setting the width of the sidebar section to match the required width*/
     width: 340px;
     /*to curve the corners of the border*/
@@ -24,7 +25,8 @@ body{
 }
 
 .main-content{
-    background-color: blue;
+    /*set color according to the required website using color picker*/
+    background-color: #121212;
     /*to assign the remaining width available to a single section*/
     flex: 1;
     /*to curve the corners of the border*/
@@ -34,7 +36,8 @@ body{
 }
 
 .music-player{
-    background-color: yellow;
+    /*set color according to the required website using color picker*/
+    background-color: black;
     /*to fix the position of the section on the page*/
     position: fixed;
     /*assign the section to the bottom of the page */
