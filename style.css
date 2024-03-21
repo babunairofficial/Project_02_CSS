@@ -47,3 +47,9 @@ body{
     /*height is set to match the required height of the section*/
     height: 72px;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
