@@ -63,3 +63,25 @@ a{
     height: 100px;
     padding: 0.5rem 0.75rem;
 }
+
+.nav-option{
+    /* to set the distance between lines of text.*/
+    line-height: 2.5rem;
+    /*adding opacity to give a lighter shade look by default*/
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+/*hover properties*/
+.nav-option:hover{
+    /*opacity increases during hover*/
+    opacity: 1;
+}
+
+.nav-option i{
+    font-size: 1.25rem;
+}
+
+.nav-option a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
