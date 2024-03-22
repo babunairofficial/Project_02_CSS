@@ -166,6 +166,10 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+
+    /*to keep element on top of another element, 
+    z-index should be more than the other eleme's z-index*/
+    z-index: 10;
 }
 
 .sticky-nav-icons{
@@ -223,4 +227,18 @@ a{
    font-weight: 600;
     opacity: 1;
     color: white;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 90%;
+    height: 30%;
+    border-top:  1px solid white;
+    opacity: 0.4;
 }
