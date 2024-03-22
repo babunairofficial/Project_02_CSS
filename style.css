@@ -218,3 +218,9 @@ a{
     font-size: 0.85rem;
     opacity: 0.8;
 }
+
+.card-info span{
+   font-weight: 600;
+    opacity: 1;
+    color: white;
+}
