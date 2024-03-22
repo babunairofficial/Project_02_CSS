@@ -77,11 +77,18 @@
             <!--"main-content" is divided into two sections- "sticky-nav" and "cards"-->
             <div class="sticky-nav">
                 <!--there are 5 elements in "sticky-nav" div-->
-                <img src="./assets/backward_icon.png">
-                <img src="./assets/forward_icon.png">
-                <button class="badge">Explore Premium</button>
-                <button class="badge"><i class="fa-regular fa-circle-down"></i> Install App</button>
-                <i class="fa-regular fa-user"></i>
+                <div class="sticky-nav-icons">
+                    <!--two elements inside "sticky-nav-icons"-->
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png">
+                </div>                
+                <div class="sticky-nav-options">
+                    <!--remaining three elements inside "sticky-nav-options"-->
+                    <button class="badge nav-item">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+                
             </div>
             <div class="cards"></div>
         </div>
