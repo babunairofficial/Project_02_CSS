@@ -180,3 +180,10 @@ a{
 .nav-item{
     margin-left: 1rem;
 }
+
+/*adding media queries*/
+@media (max-width: 1000px) {
+    .hide{
+        display: none;
+    }
+}
